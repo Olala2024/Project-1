@@ -124,5 +124,17 @@ header a {
     text-decoration: none;
     color: #3a3a3a;
 }
+
+#logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main content */
+main {
+    /* Push main content down to accomodate larger header */
+    margin-top: 75px;
+}
 }
     
