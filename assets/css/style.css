@@ -86,10 +86,15 @@ nav {
 
 /* Main content */
 main {
-    background-color: white;
-    /* Make min element take up any surplus space to push footer down */
+        /* Make min element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/banner photo.webp") no-repeat left/cover;
 }
 
 /* Footer */
@@ -124,7 +129,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        background-color: whitesmoke;
+        background-color: #ffffff;
     }
 
     #menu {
