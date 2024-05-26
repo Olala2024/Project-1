@@ -1,6 +1,6 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacques+Francois&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by browser */
 * {
@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Header */
@@ -39,9 +39,11 @@ header a {
 }
 
 h1 {
-    font-family: 'Shadows Into Light', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: -5px;
+    word-spacing: 2px;
+    font-size: 180%;
     color: #252525;
 }
 
@@ -88,13 +90,13 @@ nav {
 main {
         /* Make min element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 40px;
 }
 
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("../images/banner photo.webp") no-repeat left/cover;
+    background: url("../images/banner_photo.webp") no-repeat left/cover;
 }
 
 /* Footer */
