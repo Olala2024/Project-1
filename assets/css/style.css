@@ -19,6 +19,23 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 180%;
+    color: #252525;
+}
+
+h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 140%;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -36,15 +53,6 @@ header {
 header a {
     text-decoration: none;
     color: whitesmoke;
-}
-
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-size: 180%;
-    color: #252525;
 }
 
 #menu {
@@ -97,6 +105,22 @@ main {
     height: 400px;
     width: 100%;
     background: url("../images/banner_photo.webp") no-repeat left/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(58, 58, 58, 0.5);
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    font-size: 130%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h4 {
+    color: whitesmoke;
 }
 
 /* Footer */
@@ -161,6 +185,11 @@ footer {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 75px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
