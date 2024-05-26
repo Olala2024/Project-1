@@ -19,7 +19,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -96,7 +98,7 @@ nav {
 
 /* Main content */
 main {
-        /* Make min element take up any surplus space to push footer down */
+    /* Make min element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
 }
@@ -119,8 +121,15 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h4 {
+#cover-text>h2,
+#cover-text>h4 {
     color: whitesmoke;
+}
+
+#aboutme {
+    margin: 20px;
+    text-align: center;
+    font-size: 150%;
 }
 
 /* Footer */
