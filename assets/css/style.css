@@ -138,13 +138,19 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('assets/images/about_me.webp') no-repeat top center/cover;
+    background: url('../images/about_me.webp') no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
-    max-width: 300px;
+    max-height: 300px;
+}
+
+#aboutme-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -222,5 +228,22 @@ footer {
 
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+/* Media query:  large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    #aboutme {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #aboutme-text {
+        margin: 30px;
+    }
+
+    #aboutme-image {
+        margin-top: 30px;
     }
 }
