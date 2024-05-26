@@ -2,19 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacques+Francois&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Raleway', sans-serif;
 }
@@ -42,7 +39,6 @@ hr {
     margin: 10px;
 }
 
-/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -75,7 +71,6 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: rgba(58, 58, 58, 0.75);
@@ -87,7 +82,6 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -100,9 +94,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
 main {
-    /* Make min element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
 }
@@ -165,7 +157,6 @@ main p {
     justify-content: center;
 }
 
-/* Footer */
 footer {
     background-color: black;
     padding: 1em;
@@ -217,10 +208,8 @@ footer {
     padding-top: 50px;
 }
 
-/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
     nav {
         display: block;
         position: relative;
@@ -253,9 +242,7 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
     main {
-        /* Push main content down to accomodate larger header */
         margin-top: 75px;
     }
 
@@ -265,7 +252,6 @@ footer {
     }
 }
 
-/* Media query:  large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
     #menu a:hover {
@@ -273,7 +259,6 @@ footer {
     }
 }
 
-/* Media query:  large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     #aboutme {
