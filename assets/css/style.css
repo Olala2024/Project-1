@@ -52,8 +52,7 @@ header {
 
 }
 
-header a,
-h3, h5 {
+header a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -124,10 +123,10 @@ main p {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-}
+   }
 
 #cover-text>h2,
-#cover-text>h4 {
+#cover-text>h3 {
     color: whitesmoke;
 }
 
@@ -183,13 +182,20 @@ footer p {
     color: antiquewhite;
 }
 
+#social-networks i:hover {
+    font-size: 180%;
+    padding: 5%;
+    color: #3a3a3a;
+    background-color: antiquewhite;
+}
+
 #variations {
     display: flex;
     flex-wrap: wrap;
     color: #3a3a3a;
     justify-content: center;
     align-items: center;
-}
+    }
 
 #variations li {
     margin-left: 20px;
@@ -197,6 +203,7 @@ footer p {
 
 #variations div {
     width: 300px;
+    height: 200px;
     padding: 20px;
     margin: 20px;
     border: 2px solid #3a3a3a;
