@@ -164,6 +164,10 @@ footer {
     width: 100%;
 }
 
+footer p {
+    color: antiquewhite;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -210,17 +214,17 @@ footer {
 }
 
 #contact-box {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px;
+    margin: 10px;
     width: 100%;
 
 }
 #address {
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #address p {
