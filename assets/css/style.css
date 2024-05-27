@@ -209,6 +209,26 @@ footer {
     padding-top: 50px;
 }
 
+#contact-box {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    width: 100%;
+
+}
+#address {
+    margin-left: 50px;
+}
+
+#address p {
+    color: #3a3a3a;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -238,6 +258,10 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
+}
+
+.text-center {
+    text-align: center;
 }
 @media screen and (min-width: 768px) {
 
