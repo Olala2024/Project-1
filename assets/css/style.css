@@ -104,7 +104,7 @@ main p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     text-align: justify;
-    line-height: 2.2rem;
+    line-height: 1.5rem;
 }
 
 #hero {
@@ -214,19 +214,16 @@ footer p {
 }
 
 #contact-box {
-    margin-top: 20px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
     width: 100%;
+    }
 
-}
-
-#address {
-    margin-left: 100px;
-}
+    #address {
+        margin-top: 10px;
+    }
 
 #address p {
     color: #3a3a3a;
@@ -336,6 +333,10 @@ input[type=submit]:hover {
 
     .container {
         width: 50%;
+    }
+
+    #address {
+        margin-left: 100px;
     }
 }
 
