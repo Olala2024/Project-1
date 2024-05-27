@@ -52,7 +52,8 @@ header {
 
 }
 
-header a {
+header a,
+h3, h5 {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -219,11 +220,11 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    }
+}
 
-    #address {
-        margin-top: 10px;
-    }
+#address {
+    margin-top: 10px;
+}
 
 #address p {
     color: #3a3a3a;
