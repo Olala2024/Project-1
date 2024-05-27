@@ -223,6 +223,7 @@ footer p {
     width: 100%;
 
 }
+
 #address {
     margin-left: 100px;
 }
@@ -233,7 +234,20 @@ footer p {
     text-align: center;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #3a3a3a;
@@ -267,6 +281,7 @@ input[type=submit]:hover {
 .text-center {
     text-align: center;
 }
+
 @media screen and (min-width: 768px) {
 
     nav {
@@ -308,6 +323,19 @@ input[type=submit]:hover {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    #form-map {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #map-container {
+        padding-top: 42px;
+    }
+
+    .container {
+        width: 50%;
     }
 }
 
