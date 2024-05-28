@@ -123,7 +123,7 @@ main p {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-   }
+}
 
 #cover-text>h2,
 #cover-text>h3 {
@@ -195,7 +195,7 @@ footer p {
     color: #3a3a3a;
     justify-content: center;
     align-items: center;
-    }
+}
 
 #variations li {
     margin-left: 20px;
@@ -337,6 +337,10 @@ input[type=submit]:hover {
 
     #map-container {
         padding-top: 42px;
+    }
+
+    #map-container iframe {
+        width: 100%;
     }
 
     .container {
